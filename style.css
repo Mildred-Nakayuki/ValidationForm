@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    color:#010018;
+    padding-top: 10px;
+}
+h1.box1{
+    margin-left:40px;
+}
+body{
+    background-color: whitesmoke; 
+    font: normal 16px serif;
+    line-height: 1.6em;
+}
+
+#contact-form{
+border: rgb(201, 197, 197) 2px solid;
+    border-radius: 5px;
+    color: #040d36;
+    line-height:13px;
+    padding:20px;
+    margin-left:400px;
+    width:550px;
+    height:530px;
+    margin-top:20px;
+}
+input[type=email],[type=text],[type=number],[type=tel]{
+    width: 100%;
+    border-radius: 5px;
+    font-size: small;
+    box-sizing: border-box;
+    padding: 8px 20px;
+    margin: 1px 0px;
+    border: 1px solid whitesmoke;
+    font-size: 15px;
+}
+input[type=email]:hover,[type=text]:hover,[type=number]:hover,[type=tel]:hover{
+   cursor: pointer;
+   border:1px solid #040d36;
+}
+button{
+    background-color:#0d0d0e ;
+    color:#FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 3px 0px;
+    cursor: pointer;
+    font-size: large;
+    
+} 
+ button:hover{
+    border:1px whitesmoke solid ;
+    color:whitesmoke;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: large;
+}
+.nationality{
+    width: 100%;
+    border-radius: 5px;
+    font-size: small;
+    padding: 8px 20px;
+    margin: 1px 0px;
+    border: 1px solid whitesmoke;
+}
+.nationality:hover{
+cursor: pointer;
+   border:#040d36 1px solid;
+}

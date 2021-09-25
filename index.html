@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+                <h1>Sign Up</h1>
+                <form id="contact-form" name="validationForm" method="" onsubmit="validation(event)">
+                    <div class="form-group">
+                        <label for="name">First Name</label>
+                    <input type="text" class="form-control" placeholder="Eg Mildred" id="Fname"><span id="fnameError"></span>
+                </div>
+                <br>
+                <div class="form-group">   
+                    <label for="name">Last Name</label>
+                    <input type="text" class="form-control" id="Lname" placeholder="Eg Namutebi"><span id="errorLname"></span>
+                    </div>
+                    <br>
+                    <div class="form-group">
+                   <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Eg youremail@mail.com"><span id="errorEmail"></span>
+                    </div>
+                    <br>
+                  
+          <div class="form-group">
+            <br><label>Age</label>
+            <br><input type="number"  class="form-control" id="age" placeholder="Enter Age" ><span id="errorAge"></span>
+            </div>
+          <br>
+          <div class="form-group">
+         <label for="phone">Phone Number:</label>
+          <input type="tel" class="form-control" id="phone" placeholder="E.g 256703******" ><span id="errorPhone"></span>
+        </div>
+        <br>
+        <div class="form-group">
+            <label for="password">Password</label>       
+            <input type="text" class="form-control" id="password" placeholder="Eg ABC123@pass"><span id="errorPassword"></span>       
+                </div><br>
+            <div class="form-group">
+                <select class="nationality" id="nationality"><span id="errorNationality"></span>
+                <option value="">Select Nationality</option>
+                <option value="Ugandan">Ugandan</option>
+                <option value="Non Ugandan">Non Ugandan</option>
+              </select>
+              </div>
+              <br>
+                <!-- <div class="form-group">
+                     <label for="gender">Gender</label>
+            <select class="form-control" id="gender"><span id="errorGender"></span>
+            <option value="">Select Gender</option>
+            <option value="female">Female</option>
+            <option value="male">Male</option>
+          </select>
+          </div> -->
+              <button class="submit" type="submit">Register</button>
+</form>
+</div>
+    <script src="./validation.js"></script>
+</body>
+</html>
